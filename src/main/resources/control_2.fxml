@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="493.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.guilford.Controls">
+   <children>
+      <ImageView fx:id="imageView" fitHeight="300.0" fitWidth="300.0" layoutX="51.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="105.0" layoutY="327.0" text="Choose the color to cover the image" />
+      <ColorPicker fx:id="colorPicker" layoutX="139.0" layoutY="355.0" />
+   </children>
+</AnchorPane>
